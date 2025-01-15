@@ -6,7 +6,10 @@
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    display: flex;
+    text-align: center;
     white-space: nowrap;
+    justify-content: center;
 
     &--primary {
         color: #fff;
@@ -15,6 +18,7 @@
 
     @media (max-width: 640px) {
         display: block;
+        text-align: center;
         width: 100%;
     }
 
